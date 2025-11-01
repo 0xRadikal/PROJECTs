@@ -1,3 +1,8 @@
+*{
+        margin: auto;
+
+}
+
 /* add fonts */
 @font-face {
     font-family: 'lalezar';
@@ -22,7 +27,7 @@ body{
 }
 
 .container{
-    margin: 0 auto;
+    margin: auto;
     max-width: 1200px;
 }
 
