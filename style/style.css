@@ -1,0 +1,104 @@
+/* add fonts */
+@font-face {
+    font-family: 'lalezar';
+    src: url('../assets/fonts/Lalezar.ttf');
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('../assets/fonts/Yekan.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    font-family: yekan;
+    background: #141313;
+    color: rgb(235, 234, 234);
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* header */
+.header{
+    background-color: orange;
+}
+.header nav{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'lalezar';
+    padding: 10px 0;
+}
+.hero-img{
+    background: #141313;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 10px;
+}
+.hero-img img{
+    max-width: 100%;
+}
+
+
+
+
+.katooni-section {
+    padding: 16px 0;
+}
+.section-title{
+    color: orange;
+    font-size: 40px;
+}
+.katooni-wrraper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.katooni-item-col{
+    padding: 16px;
+    width: 100%;
+}
+.katooni-card{
+    border: 1px solid #b9b9b9;
+    background: #232222;
+    border-radius: 15px;
+    color: #b9b9b9;
+}
+.card-header img{
+    width: 100%;
+    height: auto;
+    border-radius : 15px 15px 0 0;
+}
+.card-body{
+    padding: 20px 10px;
+}
+
+/* footer */
+.footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    color: black;
+    font-size: 30px;
+}
+
+/* responsive */
+@media screen and (min-width : 768px) {
+    .katooni-item-col{
+        width: 50%;
+    }
+}
+@media screen and (min-width : 992px) {
+    .katooni-item-col{
+        width: 25%;
+    }
+}
