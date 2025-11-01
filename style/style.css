@@ -30,7 +30,7 @@ body{
     margin: auto;
     max-width: 1200px;
 }
-.container :hover{
+.container:hover{
     margin: auto;
     max-width: 12000px;
 }
